@@ -283,7 +283,7 @@ input[type="checkbox"]:checked ~ nav
 		bottom: 0;
 		overflow: hidden;
 		right: 0px;
-		left: 0px;
+		width: 100%;
 	}
 
 	.chat-form-container input[type='text'] {
