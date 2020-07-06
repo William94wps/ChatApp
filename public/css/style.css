@@ -263,11 +263,7 @@ input[type="checkbox"]:checked ~ nav
 	opacity: 0;
 }
 
-@media (max-width: 700px) {
-	*{
-		overflow: hidden;
-	}
-	
+@media (max-width: 700px) {	
 	.chat-main {
 		display: block;
 		overflow: hidden;
@@ -285,8 +281,9 @@ input[type="checkbox"]:checked ~ nav
 		padding-left: 30px;
 		position: absolute;
 		bottom: 0;
-		width: 100%;
 		overflow: hidden;
+		right: 0px;
+		left: 0px;
 	}
 
 	.chat-form-container input[type='text'] {
@@ -294,7 +291,6 @@ input[type="checkbox"]:checked ~ nav
 		border-radius: 5px;
 		border: 0;
 		font-size: 15px;
-		overflow-x: hidden;
 		overflow: hidden;
 		position: relative;
 	}
