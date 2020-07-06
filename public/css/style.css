@@ -279,9 +279,10 @@ input[type="checkbox"]:checked ~ nav
 	.chat-form-container {
 		padding: 4px 30px;
 		padding-left: 30px;
-		/*position: absolute;*/
+		position: absolute;
 		bottom: 0;
 		overflow: hidden;
+		width: 100%;
 	}
 
 	.chat-form-container input[type='text'] {
